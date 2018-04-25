@@ -5,7 +5,7 @@ function init() {
   const body = document.querySelector('body');
   var i = 0;
   var keyPress = body.addEventListener('keydown', function(e) {
-    keyPress = parseInt(e.which || e.detail);
+    parseInt(e.which || e.detail);
   });
   body.addEventListener('keydown', function(e) {
     if (keyPress === code[i]) {
