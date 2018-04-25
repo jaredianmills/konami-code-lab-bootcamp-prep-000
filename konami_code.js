@@ -11,7 +11,7 @@ function init() {
     if (keyPress === code[i]) {
       i++;
         if (i === code.length) {
-          window.alert("Congratulations! You found the code!");
+          alert("Congratulations! You found the code!");
           i = 0;
         }
     } else {
